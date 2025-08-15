@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="Página-1" id="Ir1uY-P1j089OK4qvVQc">
+    <mxGraphModel dx="1213" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y2PtCmh4kTPPwe3bolS6-1" target="LjHDLiJrzcHk0ftTDILk-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2PtCmh4kTPPwe3bolS6-1" value="Início" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="20" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-1" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="570" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-3" target="LjHDLiJrzcHk0ftTDILk-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-3" value="Quer viajar ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-4" target="LjHDLiJrzcHk0ftTDILk-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-4" value="1. Escolher destino" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-7" value="&lt;b&gt;SIM&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.59;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="LjHDLiJrzcHk0ftTDILk-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="280" as="sourcePoint" />
+            <mxPoint x="484.2" y="595.24" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="280" />
+              <mxPoint x="610" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-8" value="Viagem Cancelada" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.582;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-3" target="LjHDLiJrzcHk0ftTDILk-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="140" />
+              <mxPoint x="610" y="209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-11" value="&lt;b&gt;NÃO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-18" target="LjHDLiJrzcHk0ftTDILk-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-18" value="2. Definir data de viagem" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-19" target="LjHDLiJrzcHk0ftTDILk-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-19" value="3. Comprar passagem" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LjHDLiJrzcHk0ftTDILk-20" target="LjHDLiJrzcHk0ftTDILk-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="270" />
+              <mxPoint x="170" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-20" value="4. Reservar hotel / pousada" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LjHDLiJrzcHk0ftTDILk-22" target="LjHDLiJrzcHk0ftTDILk-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="290" />
+              <mxPoint x="160" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-22" value="5. Separar documentos e passagem" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.594;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-23" target="LjHDLiJrzcHk0ftTDILk-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="350" />
+              <mxPoint x="157" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-23" value="6. Arrumar malar" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="300" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.615;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-24" target="LjHDLiJrzcHk0ftTDILk-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="400" />
+              <mxPoint x="160" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-24" value="7. Ir ao aeroporto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.642;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-25" target="LjHDLiJrzcHk0ftTDILk-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="460" />
+              <mxPoint x="163" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-25" value="8. Realizar Check-in" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.649;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-26" target="LjHDLiJrzcHk0ftTDILk-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="164" y="520" />
+              <mxPoint x="164" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-26" value="9. Realizar Embarque" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-27" value="10. Chegar ao destino" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LjHDLiJrzcHk0ftTDILk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LjHDLiJrzcHk0ftTDILk-27" target="LjHDLiJrzcHk0ftTDILk-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
