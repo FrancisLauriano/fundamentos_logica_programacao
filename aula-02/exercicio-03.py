@@ -1,3 +1,5 @@
+# 3. Faça um algorítimo que calcule as raízes da equação de baskara.
+
 # "ax2+bx+c=0"
 
 #  x = (-b ± √Δ) / 2a

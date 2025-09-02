@@ -1,3 +1,5 @@
+# 2. Faça o algoritmo e o fluxograma que implementa a divisão inteira.
+
 dividendo = int(input('Informe o dividendo: '))
 divisor = int(input('Informe o divisor: '))
 
