@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 n = int(input('Informe qtd de números pares: '))
 
 i = 0 # contador de numeros pares
@@ -11,6 +12,8 @@ while n > i: # enquanto o contador for menor que a quantidade de numeros pares s
 
 
 
+=======
+>>>>>>> faae71e34a108b30325c8870a271958209a27b64
 
 # # numero
 # n = int(input('Digite número inteiro: '))
@@ -39,6 +42,7 @@ while n > i: # enquanto o contador for menor que a quantidade de numeros pares s
 
 # print('FIM')    
 
+<<<<<<< HEAD
 # SENHA = '1234'
 
 # senha_usario = input('Informe a senha: ')
@@ -48,3 +52,15 @@ while n > i: # enquanto o contador for menor que a quantidade de numeros pares s
 #     senha_usario = input('Informe a senha: ')
     
 # print('ACESSO PRMITIDO!') 
+=======
+SENHA = '1234'
+
+senha_usario = input('Informe a senha: ')
+
+while senha_usario != SENHA:
+    print('ACESSO NEGADO!')
+    senha_usario = input('Informe a senha: ')
+    
+print('ACESSO PRMITIDO!')    
+    
+>>>>>>> faae71e34a108b30325c8870a271958209a27b64
