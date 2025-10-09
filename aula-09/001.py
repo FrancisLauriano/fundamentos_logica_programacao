@@ -1,12 +1,22 @@
-n = int(input('Informe qtd de números pares: '))
+n = int(input('Informar qtd de pares: '))
 
-i = 0 # contador de numeros pares
-numero_par = 0 # numero pare (inicializado em zero)
+termo = 0
+i = 1
 
-while n > i: # enquanto o contador for menor que a quantidade de numeros pares solicitados pelo usuario
-    print(numero_par) # mostrar primeiro número par (foi inicializado em zero)
-    numero_par += 2 # somar dois em dois para mostrar os pares (0, 2, 4, 6 ... n)
-    i += 1 # cada par mostrado é somado mais 1
+while i <= n:
+    print(termo)
+    termo += 2
+    i += 1
+
+# n = int(input('Informe qtd de números pares: '))
+
+# i = 0 # contador de numeros pares
+# numero_par = 0 # numero pare (inicializado em zero)
+
+# while n > i: # enquanto o contador for menor que a quantidade de numeros pares solicitados pelo usuario
+#     print(numero_par) # mostrar primeiro número par (foi inicializado em zero)
+#     numero_par += 2 # somar dois em dois para mostrar os pares (0, 2, 4, 6 ... n)
+#     i += 1 # cada par mostrado é somado mais 1
 
 
 
