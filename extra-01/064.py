@@ -1,4 +1,5 @@
 soma = 0
+i = 0
 
 while True:
     n = int(input('Informe um número: '))
@@ -7,4 +8,6 @@ while True:
         break
 
     soma += n
-print(f'\nSoma: {soma}')
+    i += 1
+print(f'\nNúmeros digitados: {i}')
+print(f'Soma: {soma}')
