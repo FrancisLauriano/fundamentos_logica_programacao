@@ -7,11 +7,11 @@ else:
     maior = n2
     menor = n1
 
-if menor % 2 == 0:
-    menor += 1
+# if menor % 2 == 0:
+#     menor += 1
 
-for i in range(menor, maior+1, 2):
-    print(i)
-# for i in range(menor, maior+1):
-#     if i % 2 != 0:
-#         print(i)
+# for i in range(menor, maior+1, 2):
+#     print(i)
+for i in range(menor, maior+1):
+    if i % 2 != 0:
+        print(i)
