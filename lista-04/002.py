@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-n = int(input(''))
+n = int(input('Quantos termos: '))
 
 for i in range(0, n):
 
-    n_binario = input('')
+    n_binario = input('Digite o valor: ')
 
     decimal = 0
     expoente = 0
@@ -14,18 +14,18 @@ for i in range(0, n):
         # expoente += 1
     for digito in n_binario:
         decimal = (decimal * 2 + int(digito)) % 1500
-        
     
-    fibonacci = 1
+    print(f'Decimal: {decimal}')
+        
     termo = decimal
-    i = 3
-    f1 = 1
+    i = 2
+    f1 = 0
     f2 = 1
     
     if termo == 0:
         fibonacci = 0
-    elif termo == 1 or termo == 2:
-        fibonacci = fibonacci
+    elif termo == 1:
+        fibonacci = 1
     else:
         while i <= termo:
             # fibonacci = f1 + f2
@@ -37,4 +37,4 @@ for i in range(0, n):
             # f2 = f2 + f0
             f2 = (f2 + f0) % 1000
     
-    print('{:03d}'.format(fibonacci))
+    print('Fibonacci: {:03d}'.format(fibonacci))
