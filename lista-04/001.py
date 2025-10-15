@@ -9,6 +9,7 @@ while True:
         h = float(input())
         p1, p2 = map(int, input().split())
         n = int(input())
+    # EOFError
     except EOFError:
         break
     
