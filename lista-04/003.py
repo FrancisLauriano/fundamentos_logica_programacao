@@ -1,38 +1,44 @@
-n_linha = int(input())
-todas_linhas = ''
+n_linha = int(input('Qtd linhas? ').strip())
 
 for i in range(n_linha):
 
-    linha = input()
-    todas_linhas += linha + '\n'
-
+    linha = input(f'Digite linha {i+1}: ').strip()
 
     codigo_passo_um = ''
     codigo_passo_dois = ''
     codigo_passo_tres = ''
 
-    for c in todas_linhas:
-        if c.isalpha() == True:
+    for c in linha:
+        if c.isalpha():
             posicao = ord(c) + 3
         else:
             posicao = ord(c)
-        novo_caractere  = chr(posicao)
-        codigo_passo_um += novo_caractere
-
-    for d in range(len(codigo_passo_um) - 1, -1, -1):
-        codigo_passo_dois += codigo_passo_um[d]
+        # novo_caractere  = chr(posicao)
+        # codigo_passo_um += novo_caractere
+        codigo_passo_um += chr(posicao)
 
 
-    qtd_caractere = len(codigo_passo_dois)
-    metade_caractere = qtd_caractere // 2
+        # print(codigo_passo_um)
 
-    for e in codigo_passo_dois:
-        if codigo_passo_dois.find(e) >= metade_caractere:
-            posisao = ord(c) - 1
+    # for d in range(len(codigo_passo_um) - 1, -1, -1):
+    #     codigo_passo_dois += codigo_passo_um[d]
+        # print(codigo_passo_dois)
+
+    codigo_passo_dois = codigo_passo_um[::-1]
+    
+    # print(codigo_passo_dois)
+
+    metade_caractere = len(codigo_passo_dois) // 2
+
+    for indice, e in enumerate(codigo_passo_dois):
+        if indice >= metade_caractere:
+            posisao = ord(e) - 1
         else:
-            posisao = ord(c)
+            posisao = ord(e)
 
-        novo_caractere = chr(posisao)
-        codigo_passo_tres += novo_caractere
+        # novo_caractere = chr(posisao)
+        # codigo_passo_tres += novo_caractere
+        codigo_passo_tres += chr(posisao)
 
-print(codigo_passo_tres)
+
+    print(codigo_passo_tres)
