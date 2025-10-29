@@ -26,7 +26,7 @@ def media_valores(*numero):
     return media
 
 
-valores = map(map, input('Digite os valores: ').split())
+valores = list(map(float, input('Informe os valores: ').split()))
 # media = media_valores(10, 20, 30, 40, 60)
 media = media_valores(*valores)
 print(media)

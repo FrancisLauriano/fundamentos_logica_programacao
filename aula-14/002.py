@@ -1,11 +1,12 @@
-for c in range(1, 11):
-    for d in range(1, 6):
-        print(f'{d} x {c} = {d*c}', end='\t')
-    print()
+def area_triangulo(base: float, altura: float) -> float:
+    area = (base * altura) / 2
+    return area
 
-print()
 
-for c in range(1, 11):
-    for d in range(6, 11):
-        print(f'{d} x {c} = {d*c}', end='\t')
-    print()
+def area_retangulo(base: float, altura: float) -> float:
+    area = base * altura
+    return area
+
+base, altura = map(float, input('Informe a base e altura: ').split())
+resultado = area_triangulo(base, altura)
+print('A área do triangulo é {:.2f}'.format(resultado))
