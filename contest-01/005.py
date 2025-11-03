@@ -29,7 +29,7 @@
 # Conclusão física/matemática:
 # Se Vg ≤ Vf → interceptação impossível.
 # Se Vg > Vf, comparamos:
-#   tintercept ≤ tescape    ⟺     D / (Vg**2−Vf**2)  ≤ 12/Vft  
+#   tintercept ≤ tescape :    D / (Vg**2−Vf**2)  ≤ 12/Vft  
 
 
 D, VF, VG = map(float, input('Informe valores: ').split())
